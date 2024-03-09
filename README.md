@@ -7,9 +7,9 @@
   </h2>
 
   <h3>
-    using android studio  
-    frontend : xml 
-    backend : java
-    database : firebase 
+    using android studio  <br>
+    frontend : xml <br>
+    backend : java <br>
+    database : firebase <br>
   </h3>
 </html>
