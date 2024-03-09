@@ -7,7 +7,7 @@
   </h2>
 
   <h3>
-    using android studio  j
+    using android studio  
     frontend : xml 
     backend : java
     database : firebase 
