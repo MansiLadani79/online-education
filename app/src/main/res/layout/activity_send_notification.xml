@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/notification_bg"
+    tools:context=".ui.admin.Send_Notification">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="35dp"
+        android:backgroundTint="@color/Lpurple">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/title_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="50sp"
+            android:nextFocusForward="@+id/emailET"
+            android:textColorHint="@color/Dpurple3"
+            app:boxStrokeColor="@color/Dpurple3"
+            app:layout_constraintHorizontal_bias=".5"
+            app:layout_constraintVertical_bias="0.400"
+            app:layout_constraintWidth_percent=".8">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/title_id"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="15.0dip"
+                android:drawablePadding="10dp"
+                android:hint="Enter title"
+                android:inputType="text"
+                android:padding="15.0dip"
+                android:textColor="@color/Dpurple2"
+                android:textColorHint="@color/Dpurple2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/message_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="120sp"
+            android:nextFocusForward="@+id/passET"
+            android:textColorHint="@color/Dpurple3"
+            app:boxStrokeColor="@color/Dpurple3"
+            app:layout_constraintHorizontal_bias=".5"
+            app:layout_constraintVertical_bias="0.400"
+            app:layout_constraintWidth_percent=".8">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/message_id"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="15.0dip"
+                android:drawablePadding="10dp"
+                android:hint="Enter Message"
+                android:inputType="textEmailAddress"
+                android:padding="15.0dip"
+                android:textColor="@color/Dpurple2"
+                android:textColorHint="@color/Dpurple2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/send_btn"
+            android:layout_width="210dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="@color/Dpurple3"
+            android:text="send"
+            android:textAllCaps="false"
+            android:textColor="@color/Lpurple"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

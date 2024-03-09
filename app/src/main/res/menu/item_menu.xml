@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+
+
+    <item
+        android:id="@+id/assignment"
+        android:icon="@drawable/practice"
+        android:title="Assignment"/>
+
+    <item
+        android:id="@+id/notes"
+        android:icon="@drawable/note"
+        android:title="Notes"/>
+
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/chat1"
+        android:title="Chat"/>
+
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/person_1"
+        android:title="Profile"/>
+
+</menu>

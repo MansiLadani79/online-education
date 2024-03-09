@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about_us"
+    tools:context=".ui.About_us">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="  PLEASE READ THIS DOCUMENT CAREFULLY
+This document sets out the terms for use of the platform. It governs both our Course and Content creators (“Tutors”) and our end-users (“Students”). When we refer to “You”, we mean both our Tutors and Students or just our Tutors or our Students (don’t worry, we’ll make it clear who we’re talking to, but when in doubt, we’re talking to you). We are committed to transparency, which includes providing a Terms of Use that is understandable and written in plain language. Because this document represents our agreement with you about your use of our platform, please take the time to read this document."
+        android:textColor="@color/Dpurple3"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:text="      Our Terms of Use (“Terms” or “Agreement”) also includes our Privacy Policy, and any other documents referred to by those agreements, and they, as a whole, govern any and all of the access to the platform, whether you are a visitor, guest, Tutor, Student, etc."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp"
+            android:gravity="center"
+            android:text="      Our platform includes all of the subdomains, mobile applications, any other media, location, application, etc. owned, managed, operated, etc. by us. When referring to the infrastructure in this Agreement, we will be collectively referring to them as the “Platform”."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:gravity="center"
+            android:text="      License to Tutors and Students
+We grant you a limited, non-exclusive license to access and use our platform for your own personal and commercial purposes. This license is only for your use and may not be assigned or sublicensed to anyone else, without the platform’s express written consent. Except as expressly permitted by the platform in writing, you will not try to reproduce the platform (legally that’s known as engaging in activity that would reproduce, redistribute, sell, create derivative works from, decompile, reverse engineer, or disassemble the Platform). You also agree that in exchange for this license You will not engage in any activity that would interfere with or damage or harm the Platform. All rights not expressly granted by the platform are reserved."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="690dp"
+            android:text="      Code of Conduct"
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="720dp"
+            android:gravity="center"
+            android:text="      We have to set up some ground rules. Honestly, most of what we cover here should go without saying. However, it’s better to be upfront about things, rather than just assume everyone knows how they are expected to conduct themselves on our Platform.
+No Illegal Activity: This is about as simple as it gets. Do not use the Platform for any illegal activity. Period. You are not allowed to use our Platform to engage in any kind of conduct that violates any applicable state, local, or international law or regulation (including, without limitation, any laws regarding the export of data or software from the platform to India or any other countries)"
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="930dp"
+            android:gravity="center"
+            android:text="      No Bots, Data Mining, Extraction or Sharing: You may not use any data mining, robots, or any other possible method to extract data from the platform and circulate with others. This includes but is not limited to all forms of media, content materials, files and text hosted and found on the platform. All data on the platform is proprietary and any illegal activity in this regard is liable for prosecution under the respective clauses of the law."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1080dp"
+            android:gravity="center"
+            android:text="      No Fraud: Yes, this is probably covered in the No Illegal Activity section above, but we want to make this very clear. Fraud will not be tolerated in any capacity"
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1150dp"
+            android:gravity="center"
+            android:text="      No Bad Code: Do not use the Platform to transmit, distribute, send, etc. viruses, worms, or any other code that may be deemed dangerous, harmful, or destructive in any manner"
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1230dp"
+            android:gravity="center"
+            android:text="      No Spamming: Seriously. No one likes spam. We don’t like spam. We’re pretty sure that you don’t like your inbox cluttered with spam. You may not use the Platform to engage in any activities that will result in sending spam to anyone on the Platform, including Tutors, and Students"
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1330dp"
+            android:gravity="center"
+            android:text="      Be Civil: We mean this. We’re an open platform allowing myriad subject matters to be taught. Not all Content is for everyone. But the one thing we can all agree on is that when we use the Platform we are going to be civil and respectful at all times"
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1430dp"
+            android:gravity="center"
+            android:text="      No Exploitation: You will not use the Platform to try to gather personal information on anyone, outside of the limited permissible uses for offering your Content
+No Use Other Than Intended: You may not use the Platform or any content contained on the Platform for any purposes other than intended"
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

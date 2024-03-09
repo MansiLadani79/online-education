@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/privacy_policy"
+    tools:context=".ui.Privacy_policy">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="      Your privacy is important to us."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="      The User (defined below) of this Application (defined below), agrees to be bound by this privacy policy (“Policy”). In the event the terms and conditions of the Policy are not agreeable to the User, the User is requested to refrain from using this Application."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:text="      Education Root Media (“Developer”) is concerned about the privacy of the data and information of the Users accessing the Application, LK Academy eLearning, and the other associated/ancillary applications, websites and services managed by the Developer (“Application”) and otherwise engaging with the Developer through the Application."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:gravity="center"
+            android:text="      This Policy is a legally binding document between the User and Developer. The terms of this Policy will be effective upon the User's acceptance of the same (directly or indirectly in electronic form, by use of the Application) and will govern the relationship between the User and Developer."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:gravity="center"
+            android:text="      This Policy forms an electronic contract within the provisions of the Information Technology Act, 2000 (“IT Act”), the rules made thereunder and the amended provisions pertaining to electronic documents/records in various statutes as amended by the IT Act, from time to time. This Policy does not require any physical, electronic or digital signature."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:gravity="center"
+            android:text="      This Policy shall, at all times be read and construed in consonance and along with the terms of use and access available at (“T and Cs”)."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="585dp"
+            android:gravity="center"
+            android:text="      Developer will not differentiate between who is using the device to access the Application, so long as the log in/access credentials match with yours. In order to make the best use of the Application and enable your Information (defined below) to be captured accurately on the Application, it is essential that you have logged in using your own credentials."
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="700dp"
+            android:text="      This Policy highlights inter alia the type of data shared/collected from a User in the course of the User’s usage of the Application. The Policy further intends to apprise the User of the purposes for which the data of the User is collected and the Application’s policy with regard to sharing such personal information with third party entities."
+            android:gravity="center"
+            android:textColor="@color/Dpurple3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

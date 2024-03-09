@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".ui.admin.admin_home">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/Dpurple3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"/>
+
+        <ImageView
+            android:id="@+id/img_logout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="330dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logout"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_material"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="60dp"
+            app:cardElevation="20dp"
+            app:rippleColor="@color/Dpurple3"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:src="@drawable/material"
+                android:layout_gravity="center" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_show"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="60dp"
+            app:cardElevation="20dp"
+            app:rippleColor="@color/Dpurple3"
+            app:cardCornerRadius="10dp"
+            android:onClick="retrivePDF"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="150dp"
+                android:src="@drawable/show"
+                android:onClick="retrivePDF"
+                android:layout_gravity="center" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_assignment"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="60dp"
+            app:cardElevation="20dp"
+            app:rippleColor="@color/Dpurple3"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:layout_width="330dp"
+                android:layout_height="150dp"
+                android:src="@drawable/assignment"
+                android:layout_gravity="center" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_answer"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="610dp"
+            android:layout_marginLeft="60dp"
+            app:cardElevation="20dp"
+            app:rippleColor="@color/Dpurple3"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="150dp"
+                android:src="@drawable/answer"
+                android:layout_gravity="center" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_notification"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="810dp"
+            android:layout_marginLeft="60dp"
+            app:cardElevation="20dp"
+            app:rippleColor="@color/Dpurple3"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="150dp"
+                android:src="@drawable/notification"
+                android:layout_gravity="center" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_notice"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="1010dp"
+            android:layout_marginLeft="60dp"
+            app:cardElevation="20dp"
+            app:rippleColor="@color/Dpurple3"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="150dp"
+                android:src="@drawable/notice"
+                android:layout_gravity="center" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_list"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="1210dp"
+            android:layout_marginLeft="60dp"
+            app:cardElevation="20dp"
+            app:rippleColor="@color/Dpurple3"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="150dp"
+                android:src="@drawable/list"
+                android:layout_gravity="center" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_chat"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="1410dp"
+            android:layout_marginLeft="60dp"
+            app:cardElevation="20dp"
+            app:rippleColor="@color/Dpurple3"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="150dp"
+                android:src="@drawable/chat"
+                android:layout_gravity="center" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

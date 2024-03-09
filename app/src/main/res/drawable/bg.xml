@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:centerColor="@color/Lpurple"
+        android:endColor="@color/Lpurple"
+        android:startColor="@color/white"
+        android:angle="90"/>
+
+
+</shape>
+
+<!--    https://assets10.lottiefiles.com/packages/lf20_oamuifwx.json-->
